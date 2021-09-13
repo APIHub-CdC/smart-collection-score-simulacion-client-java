@@ -8,15 +8,9 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(CatalogoTipoContrato.Adapter.class)
 public enum CatalogoTipoContrato {
   
-  TC("TC"),
-  
-  TD("TD"),
-  
-  CC("CC"),
-  
-  HB("HB"),
-  
-  LC("LC");
+  AB("AB"), AE("AE"), AM("AM"), AR("AR"), BR("BR"), CA("CA"), CC("CC"), CF("CF"), CO("CO"), CP("CP"), HB("HB"),
+  HE("HE"), HV("HV"), LC("LC"), LR("LR"), MC("MC"), NG("NG"), OT("OT"), PB("PB"), PE("PE"), PG("PG"), PM("PM"),
+  PN("PN"), PP("PP"), SH("SH"), TC("TC"), TD("TD");
   private String value;
   CatalogoTipoContrato(String value) {
     this.value = value;
