@@ -52,8 +52,7 @@ public class SmartCollectionScoreSimulacionApiTest {
             body.setTipoContrato(CatalogoTipoContrato.TC);
             body.setTipoCuenta(CatalogoTipoCuenta.R);
             body.setTipoFrecuencia(CatalogoTipoFrecuencia.M);
-            body.setVentanaDeTiempo(CatalogoVentanaTiempo._1M);
-            body.setFronteraDeImpago(CatalogoFronteraDeImpago.NUMBER_30);
+            body.setFronteraDeImpago(CatalogoVentanaTiempo._1M);
             body.setPeriodosVencidos(CatalogoPeriodosVencidos._1);
             body.setSaldoVencido("saldoVencido");
             body.setSaldoActual("saldoActual");
